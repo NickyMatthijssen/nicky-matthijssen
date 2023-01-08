@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_page_headers",
+  "info": {
+    "displayName": "PageHeader",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

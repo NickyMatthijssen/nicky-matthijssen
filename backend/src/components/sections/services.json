@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_services",
+  "info": {
+    "displayName": "Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brands": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.slider"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.service-card"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_dividers",
+  "info": {
+    "displayName": "Divider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "spacing": {
+      "type": "integer",
+      "required": true,
+      "max": 200,
+      "min": 0,
+      "unique": false,
+      "default": 0
+    }
+  }
+}
