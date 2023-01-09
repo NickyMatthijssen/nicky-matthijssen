@@ -1,7 +1,7 @@
 const strapiUrlParts = process.env.NEXT_PUBLIC_STRAPI_URL.split(":");
 const protocol = strapiUrlParts[0];
 const hostname = strapiUrlParts[1]?.replace("//", "");
-const port = strapiUrlParts[2] ?? null;
+const port = strapiUrlParts[2] ?? "";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
